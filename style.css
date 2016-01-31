@@ -1,0 +1,20 @@
+.temp,
+.summary {
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+}
+.temp:after,
+.feelsLike:after {
+    content: "\00b0";
+}
+.chanceRain:after {
+    content: "\0025";
+}
+.dailyWeather {
+    margin-top: 20px;
+    font-size: 18px;
+}
+.fiveDaysHeading {
+    margin: 20px 0;
+}

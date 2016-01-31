@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Twitch API Demonstration</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.5.0/lodash.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="code.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="city text-center"></h1>
+                    <div class="temp text-center">&deg</div>
+                    <div class="summary text-center"></div>
+                </div>
+            </div>
+            <div class="row dailyWeather text-center">
+                <div class="col-md-2 col-xs-4">
+                    <div><strong>Visibility</strong></div>
+                    <div class="visibility"></div>
+                </div>
+                <div class="col-md-2 col-xs-4">
+                    <div><strong>Humidity</strong></div>
+                    <div class="humidity"></div>
+                </div>
+                <div class="col-md-2 col-xs-4">
+                    <div><strong>Feels Like</strong></div>
+                    <div class="feelsLike"></div>
+                </div>
+                <div class="col-md-2 col-xs-4">
+                    <div><strong>Chance of Rain</strong></div>
+                    <div class="chanceRain"></div>
+                </div>
+                <div class="col-md-2 col-xs-4">
+                    <div><strong>Wind Speed</strong></div>
+                    <div class="windSpeed"></div>
+                </div>
+                <div class="col-md-2 col-xs-4">
+                    <div><strong>Wind Bearing</strong></div>
+                    <div class="windBearing"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 text-center fiveDaysHeading">
+                    <h2>Next Five Days</h2>
+                </div>
+            </div>
+
+            <div class="row fiveDays">
+                <div class="col-xs-2 text-right">
+                    <strong>High:<br>
+                            Low:<br>
+                            Summary:<br></strong>
+                </div>
+
+                <div class="col-xs-2 text-center">
+                    <p class="day0"></p>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <p class="day1"></p>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <p class="day2"></p>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <p class="day3"></p>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <p class="day4"></p>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <p class="day5"></p>
+                </div>
+
+            </div>
+
+        </div>
+    </body>
+
+</html>
+
